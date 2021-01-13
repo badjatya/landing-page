@@ -23,6 +23,7 @@ header nav div a, header nav ul li a{
     text-decoration: none;
     font-size: 20px;
     transition: color 0.2s;
+    text-transform: uppercase;
 
 }
 
@@ -42,3 +43,50 @@ header nav ul li a{
 header nav div a:hover, header nav ul li a:hover{
     color: #C88136;
 }
+
+header .heading {
+    text-align: center;
+    margin-top: 220px;
+}
+
+header .heading h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+header .heading .btn{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 25px;
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    padding-top: 13px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+header .heading .btn-full{
+    background-color: #C88136;
+    border: 3px solid #C88136;
+    transition: background-color 0.2s;
+
+}
+
+header .heading .btn-full:hover{
+    background-color: #d8862f;
+}
+
+header .heading .btn-empty{
+    border: 3px solid #C88136;
+    transition: background-color 0.2s, border 0.2s;
+}
+
+header .heading .btn-empty:hover{
+    background-color: #C88136;
+    border: 3px solid white;
+}
+
