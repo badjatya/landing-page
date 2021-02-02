@@ -1,92 +1,92 @@
-body{
-    padding: 0;
-    margin: 0;
-    color: white;
+body {
+  padding: 0;
+  margin: 0;
+  color: white;
 }
 
 /* #C88136 */
 
-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.623)) ,url(./img/background.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.623)),
+    url(./img/background.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-.inlineElement{
-    display: inline-block;
+.inlineElement {
+  display: inline-block;
 }
 
-header nav div a, header nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    transition: color 0.2s;
-    text-transform: uppercase;
-
+header nav div a,
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.2s;
+  text-transform: uppercase;
 }
 
-header nav div a{
-    margin-left: 25px;
-    font-weight: bold;
+header nav div a {
+  margin-left: 25px;
+  font-weight: bold;
 }
 
-header nav ul{
-    margin-left: 800px;
+header nav ul {
+  margin-left: 50%;
 }
 
-header nav ul li a{
-    margin-right: 35px;
+header nav ul li a {
+  margin-right: 35px;
 }
 
-header nav div a:hover, header nav ul li a:hover{
-    color: #C88136;
+header nav div a:hover,
+header nav ul li a:hover {
+  color: #c88136;
 }
 
 header .heading {
-    text-align: center;
-    margin-top: 220px;
+  text-align: center;
+  margin-top: 220px;
 }
 
-header .heading h1{
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: 200;
+header .heading h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 200;
 }
 
-header .heading .btn{
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-right: 25px;
-    display: inline-block;
-    width: 150px;
-    height: 35px;
-    text-align: center;
-    padding-top: 13px;
-    border-radius: 10px;
-    letter-spacing: 2px;
+header .heading .btn {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 25px;
+  display: inline-block;
+  width: 150px;
+  height: 35px;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 10px;
+  letter-spacing: 2px;
 }
 
-header .heading .btn-full{
-    background-color: #C88136;
-    border: 3px solid #C88136;
-    transition: background-color 0.2s;
-
+header .heading .btn-full {
+  background-color: #c88136;
+  border: 3px solid #c88136;
+  transition: background-color 0.2s;
 }
 
-header .heading .btn-full:hover{
-    background-color: #d8862f;
+header .heading .btn-full:hover {
+  background-color: #d8862f;
 }
 
-header .heading .btn-empty{
-    border: 3px solid #C88136;
-    transition: background-color 0.2s, border 0.2s;
+header .heading .btn-empty {
+  border: 3px solid #c88136;
+  transition: background-color 0.2s, border 0.2s;
 }
 
-header .heading .btn-empty:hover{
-    background-color: #C88136;
-    border: 3px solid white;
+header .heading .btn-empty:hover {
+  background-color: #c88136;
+  border: 3px solid white;
 }
-
